@@ -1,0 +1,10 @@
+Data handling 
+-> repository layer
+-> database? (file db)
+-> save user instead of user list
+
+gammemodes -> working xd -> more (map guesser)?
+
+rank system -> better + balanced
+
+lottery?

@@ -1,0 +1,26 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Choupa's manager",
+  "main": "Main/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wannes Schillebeeckx",
+  "license": "ISC",
+  "dependencies": {
+    "collect.js": "^4.34.0",
+    "convert-svg-to-png": "^0.5.0",
+    "country-code-lookup": "^0.0.20",
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-svg2png": "^2.0.2",
+    "sharp": "^0.29.3",
+    "string-progressbar": "^1.0.4",
+    "svg-png-converter": "^0.0.9",
+    "svgexport": "^0.4.2",
+    "taro-tabbar-svg-to-png": "^1.0.4"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/Worldmap.css">
+    <link rel="prefetch" href="Worldmap.module.html" />
+    <link rel="icon" href="./Images/favicon.png"> 
+    <title>Choupa Website - Worldmap</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="infobox">
+            <div class="flag"></div>
+            <div class="wrap">
+                <div class="icon" style="background-image: url('./Images/CountryIcon.png')"></div>
+                <h1 id="__Country">Country</h1>
+            </div>
+            <div class="wrap">
+                <div class="icon"  style="background-image: url('./Images/ContinentIcon.png')"></div>
+                <h2 id="__Continent">Continent</h2>
+            </div>
+            <div class="wrap">
+                <div class="icon"  style="background-image: url('./Images/RegionIcon.png')"></div>
+                <h2 id="__Region">Region</h2>
+            </div>
+            <div class="wrap">
+                <div class="icon"  style="background-image: url('./Images/CapitalIcon.png')"></div>
+                <h2 id="__Capital">Capital</h2>
+            </div>
+            
+        </div>
+        <div class="worldMapPlaceholder"></div>
+    </div>
+</body>
+</html>
+<script>$('.worldMapPlaceholder').load("Worldmap.module.html");</script>
